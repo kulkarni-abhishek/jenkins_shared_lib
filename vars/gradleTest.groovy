@@ -1,3 +1,3 @@
 def call() {
-    sh 'gradle test'
+    sh 'gradle test --stacktrace'
 }
